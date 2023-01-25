@@ -1,0 +1,614 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: first flex-start;
+    align-items: center;
+    padding: 0 1vmax;
+    background-color: whitesmoke;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: lightslategrey;
+}
+
+li {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: first flex-start;
+    align-items: center;
+    padding: 0 1vmax;
+    background-color: whitesmoke;
+lll.o}
+
+.topleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topone {
+    position: absolute;
+    right: 20%;
+}
+
+.toptwo {
+    position: absolute;
+    right: 15%;
+}
+
+.topthree {
+    position: absolute;
+    right: 10%;
+}
+
+.topfour {
+    position: absolute;
+    right: 5%;
+}
+
+.midd {
+    height: 60%;
+    width: 100%;
+    background-color: rgb(235, 199, 186);
+}
+
+.midd>h1 {
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    font-size: 40px;
+}
+
+.midd>h2 {
+    position: absolute;
+    top: 28%;
+    left: 42%;
+}
+
+.button {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    background-color: white;
+    width: 60%;
+    height: 8%;
+}
+
+.button>h4 {
+    padding: 20px;
+}
+
+button {
+    position: absolute;
+    top: 40%;
+    right: 21%;
+    width: 10%;
+    height: 8%;
+    border: black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: lightseagreen;
+}
+
+.midd>p {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+}
+
+.a {
+    position: absolute;
+    top: 85%;
+    left: 18%;
+    font-size: 60px;
+}
+
+p {
+    position: absolute;
+    top: 100%;
+    left: 23%;
+    font: size 15px;
+}
+
+/* second page  */
+
+.secondtopleft>img {
+    position: absolute;
+    top: 110%;
+    left: 10%;
+}
+
+.secondtopleft>h1 {
+    position: absolute;
+    top: 160%;
+    left: 10%;
+
+}
+
+.secondtopleft>h5 {
+    position: absolute;
+    top: 169%;
+    left: 10%;
+    font-weight: lighter;
+}
+
+.secondtopleft>h6 {
+    position: absolute;
+    top: 178%;
+    left: 10%;
+    font-weight: lighter;
+
+}
+
+.secondtopleft>h4 {
+    position: absolute;
+    top: 185%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.secondtopleft>button {
+    position: absolute;
+    top: 193%;
+    left: 10%;
+    color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.secondtopleft>button:hover {
+    color: black;
+}
+
+
+.secondtopright>img {
+    position: absolute;
+    top: 110%;
+    right: 10%;
+}
+
+
+.secondtopright>h1 {
+    position: absolute;
+    top: 160%;
+    right: 35%;
+}
+
+.secondtopright>h5 {
+    position: absolute;
+    top: 169%;
+    right: 18%;
+    font-weight: lighter;
+}
+
+
+.secondtopright>h6 {
+    position: absolute;
+    top: 178%;
+    right: 45%;
+    font-weight: lighter;
+}
+
+.secondtopright>h4 {
+    position: absolute;
+    top: 185%;
+    right: 32%;
+    font-size: 25px;
+}
+
+.secondtopright>button {
+    position: absolute;
+    top: 193%;
+    right: 38.5%;
+    color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.secondtopright>button:hover {
+    color: black;
+}
+
+/* 3rd page */
+
+.box {
+    height: 65%;
+    width: 100%;
+    background-color: rgb(144, 185, 221);
+    position: absolute;
+    top: 225%;
+}
+
+.box>h5 {
+    position: absolute;
+    top: 16%;
+    left: 8%;
+}
+
+.box>h6 {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-weight: lighter;
+}
+
+.box>img {
+    position: absolute;
+    top: 15%;
+    right: 34%;
+}
+
+.box>h1 {
+    position: absolute;
+    top: 13%;
+    right: 24%;
+}
+
+.box>h2 {
+    position: absolute;
+    top: 12%;
+    right: 19%;
+    font-weight: lighter;
+}
+
+.apple {
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+
+.box>h4 {
+    position: absolute;
+    top: 35%;
+    right: 17%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box>p {
+    position: absolute;
+    top: 60%;
+    left: 64%;
+}
+
+.box>button {
+    position: absolute;
+    top: 80%;
+    right: 26%;
+}
+
+/* fourth page */
+
+
+.fourth {
+    position: absolute;
+    color: rgb(223, 227, 231);
+    height: 20%;
+    width: 100%;
+    top: 310%;
+}
+
+.fourth>h4 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.addbox {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(143, 135, 135);
+    position: absolute;
+    top: 100%;
+
+}
+
+.addbox>h3 {
+    position: absolute;
+    left: 7%;
+    top: 40%;
+}
+
+.addbox>img {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+
+}
+
+.footer {
+    height: 1050%;
+    width: 100%;
+    background-color: rgb(33, 34, 36);
+}
+
+
+
+.footer>h5 {
+    position: absolute;
+    top: 180%;
+    left: 8%;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.footer>img {
+    position: absolute;
+    top: 214%;
+    left: 8%;
+}
+
+.footer>h1 {
+    position: absolute;
+    top: 204%;
+    left: 10%;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.footer>p {
+    position: absolute;
+    top: 208%;
+    left: 23%;
+    font-size: 30px;
+}
+
+.footer>hr {
+    position: absolute;
+    top: 255%;
+    width: 100%;
+    color: red;
+
+}
+
+.second {
+    position: absolute;
+    top: 199%;
+    left: 30%;
+}
+
+.aboutgodaddy{
+    position: absolute;
+    top: 290%;
+}
+.aboutgodaddy>h3{
+    position: absolute;
+    left: 0%;
+    font-size: 20px;
+}
+.aboutgodaddy>a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    color: white;
+    
+}
+.aboutgodaddy>a:hover{
+    color: red;
+}
+
+.support{
+    position: absolute;
+    top: 290%;
+    left: 17%;
+}
+.support>h3{
+    font-size: 20px;
+    position: absolute;
+    left: 16%;
+}
+
+.support>a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    color: white;
+    
+}
+
+.support>a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.Resourses{
+    position: absolute;
+    top: 290%;
+    left: 33%;
+}
+.Resourses>h3{
+    position: absolute;
+    left: 10%;
+
+}
+.Resourses>a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    color: white;
+
+}
+.Resourses>a:hover{
+    color:blue;
+}
+
+
+.partnerprogramme{
+    position: absolute;
+    top: 290%;
+    left: 53%;  
+}
+.partnerprogramme>a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    color: white;
+
+}
+.partnerprogramme>a:hover{
+    color: red;
+}
+.partnerprogramme>h3{
+    left: 10%;
+    position: absolute;
+}
+
+.account{
+    position: absolute;
+    top: 290%;
+    left: 70%;
+
+}
+.account>h3{
+    position: absolute;
+    left: 10%;
+}
+.account>a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.account>a:hover{
+    color: red;
+}
+
+.Shoping{
+    position: absolute;
+    top: 290%;
+    left: 90%;
+}
+.Shoping>a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    
+}
+
+.Shoping>h3{
+    position: absolute;
+    left: 10%;
+}
+
+
+
+.Shoping>a:hover{
+    color: red;
+}
+
+
+ .t{
+    position: absolute;
+    top: 900%;
+    width: 90%;
+    left: 5%;
+ }
+
+.fifthpage>img{
+    position: absolute;
+    top: 482%;
+    left: 6%;
+}
+
+.fifthpage>h1{
+    position: absolute;
+    top: 480%;
+    left: 8%;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.one{
+    position: absolute;
+    top: 480%;
+    right: 7%;
+    cursor: pointer;
+}
+.two{
+    position: absolute;
+    top: 480%;
+    right: 12%;
+    cursor: pointer;
+}
+.three{
+    position: absolute;
+    top: 480%;
+    right: 17%;
+    cursor: pointer;
+}
+
+p{
+    position: absolute;
+    top: 500%;
+    color:whitesmoke;
+    left: 5%;
+    font-size: 14px;
+}
+
+.leftbottom{
+    position: absolute;
+    top: 500%;
+    right: 5%;
+
+}
+.leftbottom>a{
+    padding: 6px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+.leftbottom>a:hover{
+    color: rgb(88, 122, 223);
+}
+
+.z{
+    position: absolute;
+    top: 510%;
+}
+.y{
+    position: absolute;
+    top: 508%;
+    right: 5%;
+    color: burlywood;
+    background-color: green;
+    border-radius: 20px;
+}
+.y:hover{
+    font-size: 10px;
+    border-style: inherit;
+}
